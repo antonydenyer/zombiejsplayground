@@ -1,5 +1,5 @@
 var signInSteps = function() {
-	this.World = require("../support/world.js").World; // overwrite default World constructor
+	this.World = require("../support/world.js").World; 
 
 	this.Given(/^I am not signed in$/, function(callback) {
 		this.helpers.visit('signout', callback);

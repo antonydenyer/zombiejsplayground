@@ -3,9 +3,10 @@ Feature: Change Password on Account Page (SDDOTCOM - 340)
 	As a 7digital end consumer on the new Dotcom
 	I want to have access to an account page with funky stuff on it
 
-    Background: 
-		Given I am signed in
+	Background:
+		Given I am not signed in
 
-    Scenario: Account page is available to signed in users
+	Scenario: Account page is available to signed in users
+		Given I am signed in
 		Given I visit the account page
 		Then I should get to the account page
