@@ -1,0 +1,21 @@
+{
+  "author": "Antony Denyer <antony.denyer@7digital.com>",
+  "name": "node-7digital-com-feature-tests",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG_LEVEL=5 ./node_modules/.bin/cucumber.js features/"
+  },
+  "engines": {
+    "node": ">=0.6.5"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "zombie": "latest",
+    "cucumber": "latest",
+    "should": "latest"
+    }
+}
