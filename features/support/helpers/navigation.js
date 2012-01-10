@@ -6,7 +6,8 @@ module.exports = {
 		this.browser.clickLink("#signin-link", function(e, browser, status) {
 			browser
 				.fill("#email", username)
-				.fill("#password", password).pressButton("#signin", callback);
+				.fill("#password", password)
+                .pressButton("#signin", callback);
 		});
 	},
 	visitRelease: function visitRelease(release, artist, callback) {
