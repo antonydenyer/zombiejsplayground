@@ -15,7 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "zombie": "latest",
-    "cucumber": "latest",
+    "cucumber": "git://github.com/antonydenyer/cucumber-js.git#formatter",
     "should": "latest"
     }
 }
